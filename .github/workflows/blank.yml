@@ -9,7 +9,7 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Grant permission to write to the repository contents
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -17,6 +17,6 @@ jobs:
       - name: Insert GitHub Account Info into README
         uses: kotorkovsciy/github-account-info-2-readme@v0.0.2
         with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Repository token
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
           github_username: vicimpa
           target_file: README.md
