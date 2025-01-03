@@ -17,31 +17,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Get the latest user event
-        id: fetch_event
-        run: |
-          response=$(curl -s https://api.github.com/users/vicimpa/events/public)
-          latest_repo=$(echo "$response" | jq -r '.[0].repo.name')
-          echo "latest_repo=$latest_repo" >> $GITHUB_ENV
-
-      - name: Update README
-        run: |
-          file="README.md"
-          username="vicimpa"
-          response=$(curl -s https://api.github.com/users/vicimpa/events/public)
-
-          latest_repo_url=$(echo "$response" | jq -r '.[0].repo.name')
-          latest_repo_name=$(echo "$response" | jq -r '.[0].repo.url')
-
-          new_content="Latest Project: [$latest_repo_name]($latest_repo_url)"
-
-          sed -i "/<!--START_LAST_REPO-->/, /<!--END_LAST_REPO-->/ {/<!--START_LAST_REPO-->/! {/<!--END_LAST_REPO-->/! s|.*|$new_content| }}" "$file"
-          
-          # Commit and push the changes
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add README.md
-          git commit -m "Update README with the latest repository"
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Insert GitHub Account Info into README
+        uses: kotorkovsciy/github-account-info-to-readme@v0.0.1
+        with:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Repository token
+          username: vicimpa
+          readme: README.md
