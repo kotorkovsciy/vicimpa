@@ -27,7 +27,7 @@ jobs:
       - name: Update README
         run: |
           file="README.md"
-          local username="vicimpa"
+          username="vicimpa"
           response=$(curl -s https://api.github.com/users/vicimpa/events/public)
 
           latest_repo_url=$(echo "$response" | jq -r '.[0].repo.name')
