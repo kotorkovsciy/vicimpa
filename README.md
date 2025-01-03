@@ -1,5 +1,5 @@
 # vicimpa
 
 <!--START_LAST_REPO-->
-Latest Project: [https://api.github.com/repos/vicimpa/vicimpa-library](vicimpa/vicimpa-library)
+Latest Project: [vicimpa/vicimpa-library](https://github.com/vicimpa/vicimpa-library)
 <!--END_LAST_REPO-->
