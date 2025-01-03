@@ -28,6 +28,13 @@ jobs:
         run: |
           TAG="LAST_REPO"
           file="README.md"
+          local username="vicimpa"
+          response=$(curl -s https://api.github.com/users/$username/events/public)
+
+          latest_repo_url=$(echo "$response" | jq -r '.[0].repo.name')
+          latest_repo_name=$(echo "$response" | jq -r '.[0].repo.url')
+
+          new_content="Latest Project: [$latest_repo_name]($latest_repo_url)"
 
           sed -i "/<!--START_$TAG-->/, /<!--END_$TAG-->/ {/<!--START_$TAG-->/! {/<!--END_$TAG-->/! s|.*|$new_content| }}" "$file"
           
