@@ -1,0 +1,40 @@
+name: Update README with the latest repository
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 * * * *'  # Run every hour
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Permission to write to the repository content
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Get the latest user event
+        id: fetch_event
+        run: |
+          response=$(curl -s https://api.github.com/users/vicimpa/events/public)
+          latest_repo=$(echo "$response" | jq -r '.[0].repo.name')
+          echo "latest_repo=$latest_repo" >> $GITHUB_ENV
+
+      - name: Update README
+        run: |
+          TAG="LAST_REPO"
+
+          sed -i "/<!--START_$TAG-->/, /<!--END_$TAG-->/ {/<!--START_$TAG-->/! {/<!--END_$TAG-->/! s|.*|$new_content| }}" "$file"
+          
+          # Commit and push the changes
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "Update README with the latest repository"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
