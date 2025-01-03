@@ -14,9 +14,6 @@ jobs:
       contents: write  # Permission to write to the repository content
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
       - name: Insert GitHub Account Info into README
         uses: kotorkovsciy/github-account-info-to-readme@v0.0.1
         with:
