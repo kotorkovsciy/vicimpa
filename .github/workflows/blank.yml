@@ -22,8 +22,8 @@ jobs:
         run: |
           username="vicimpa"
           response=$(curl -s https://api.github.com/users/$username/events/public)
-          latest_repo_url=$(echo "$response" | jq -r '.[0].repo.name')
-          latest_repo_name=$(echo "$response" | jq -r '.[0].repo.url')
+          latest_repo_name=$(echo "$response" | jq -r '.[0].repo.name')
+          latest_repo_url=https://github.com/$latest_repo_name
           latest_project="Latest Project: [$latest_repo_name]($latest_repo_url)"
           echo "latest_project=$latest_project" >> $GITHUB_ENV
           
