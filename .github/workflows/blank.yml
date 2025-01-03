@@ -27,6 +27,7 @@ jobs:
       - name: Update README
         run: |
           TAG="LAST_REPO"
+          file="README.md"
 
           sed -i "/<!--START_$TAG-->/, /<!--END_$TAG-->/ {/<!--START_$TAG-->/! {/<!--END_$TAG-->/! s|.*|$new_content| }}" "$file"
           
