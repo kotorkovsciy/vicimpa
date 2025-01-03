@@ -1,49 +1,22 @@
-name: Update README with the latest repository
+name: Update README with GitHub Account Info
 
 on:
   push:
     branches:
       - main
-  schedule:
-    - cron: '0 * * * *'
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
-
+      contents: write  # Grant permission to write to the repository contents
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Get latest project
-        id: fetch_event
-        run: |
-          username="vicimpa"
-          response=$(curl -s https://api.github.com/users/$username/events/public)
-          latest_repo_name=$(echo "$response" | jq -r '.[0].repo.name')
-          latest_repo_url=https://github.com/$latest_repo_name
-          latest_project="Latest Project: [$latest_repo_name]($latest_repo_url)"
-          echo "latest_project=$latest_project" >> $GITHUB_ENV
-          
-      - name: Update latest project
-        run: |
-          file="README.md"
-          TAG="LAST_REPO"
-          
-          sed -i "/<!--START_$TAG-->/, /<!--END_$TAG-->/ {
-              /<!--START_$TAG-->/! { 
-              /<!--END_$TAG-->/! s|.*|${{ env.latest_project }}| 
-            }
-          }" "$file"
-
-      - name: Commit and push
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add README.md
-          git commit -m "Update README"
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Insert GitHub Account Info into README
+        uses: kotorkovsciy/github-account-info-2-readme@v0.0.1
+        with:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Repository token
+          username: vicimpa
+          readme: README.md
