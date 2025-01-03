@@ -18,5 +18,5 @@ jobs:
         uses: kotorkovsciy/github-account-info-2-readme@v0.0.1
         with:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Repository token
-          username: vicimpa
+          github_username: vicimpa
           readme: README.md
