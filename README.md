@@ -173,7 +173,6 @@
 | Audio-Input-Effects | https://github.com/vicimpa/Audio-Input-Effects | 0 | https://img.shields.io/github/last-commit/vicimpa/Audio-Input-Effects?style=flat&label=last |
 | apps | https://github.com/vicimpa/apps | 0 | https://img.shields.io/github/last-commit/vicimpa/apps?style=flat&label=last |
 | animation | https://github.com/vicimpa/animation | 0 | https://img.shields.io/github/last-commit/vicimpa/animation?style=flat&label=last |
-| 2048-game | https://github.com/vicimpa/2048-game | 0 | https://img.shields.io/github/last-commit/vicimpa/2048-game?style=flat&label=last |
 <!--END_TABLE_REPOS-->
 
 </details>
