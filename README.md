@@ -1,4 +1,22 @@
-# vicimpa
+<div align="center">
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <img width="60" height="60" src="https://github.com/vicimpa.png" />
+  <br/>
+  <br/>
+  Hi, I'm Roman, 👨🏽‍💻TypeScript Fullstack Developer from Ksrasnoyarsk, Russia.
+  <br>
+  <br>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
 
 <!--START_LAST_REPO-->
 Latest Project: [vicimpa/openbomber](https://github.com/vicimpa/openbomber)
@@ -177,3 +195,15 @@ Latest Project: [vicimpa/openbomber](https://github.com/vicimpa/openbomber)
 <!--END_TABLE_REPOS-->
 
 </details>
+<br />
+
+<div align="right">
+  <a href="https://discord.gg/hellcord">
+    <img src="https://github.com/user-attachments/assets/4f293f56-6069-4a5f-854d-c0b4ea3783f0" height="50">
+  </a>
+</div>
+
+
+
+
+
