@@ -12,5 +12,3 @@ Latest Project: [vicimpa/openbomber](https://github.com/vicimpa/openbomber)
 <!--END_TABLE_REPOS-->
 
 </details>
-
-@soon
