@@ -7,6 +7,14 @@
   <br/>
   <br/>
   Hi, I'm Roman, 👨🏽‍💻TypeScript Fullstack Developer from Ksrasnoyarsk, Russia.
+  <br/>
+  <p>
+    <a href="https://boosty.to/vic_dev">Boosty</a> • 
+    <a href="https://t.me/vic_dev">Telegram</a> • 
+    <a href="https://vk.com/vicimpa">Vk</a> • 
+    <a href="https://career.habr.com/vic_dev">Habr</a> • 
+    <a href="https://discord.com/users/658403244749488177">Discord</a>
+  </p>
   <br>
   <br>
 
