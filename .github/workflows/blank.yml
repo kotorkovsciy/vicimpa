@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Insert GitHub Account Info into README
-        uses: kotorkovsciy/github-account-info-2-readme@v0.0.4.1
+        uses: kotorkovsciy/github-account-info-2-readme@v0.0.4
         with:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
           github_username: vicimpa
