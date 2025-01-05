@@ -18,6 +18,26 @@
   <br>
   <br>
 
+   ✦ My projects/libs/applications ✦
+   <p style="display: inline-block">
+    <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/data-buffer"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/4502f140-ab17-417b-9c12-88ead684222b"></a>
+     <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/data-pack"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/b5f5e67d-dd32-45c2-90de-b4f12a35e7b8"></a>
+     <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/decorators"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/f91b8f85-c636-4df5-8679-7c4670cf66e4"></a>
+     <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/easy-drag"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/13b028ad-c879-454a-a36e-956374305466"></a>
+     <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/events"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/632c3c78-0dce-440a-b514-9d10fbddba2b"></a>
+     <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/lib-vec2"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/b5c2c18c-2eff-4382-ad65-7dce560307cc"></a>
+     <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/math"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/a00c80cc-ebe7-4e8a-a74d-69d3d3796136"></a>
+     <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/nick-name"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/96f43036-7396-4a9a-a1a7-66bbbe16df28"></a>
+     <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/observers"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/76877ea1-7877-4f12-a26d-c61d1419a6d8"></a>
+     <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/perlin-noise"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/d0489fbf-952b-4dd7-b74b-b8f4e4f0e858"></a>
+     <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/proto"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/54d03a1e-f6c8-471c-b024-c4ffc7d1d948"></a>
+     <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/react-decorators"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/d1876a80-02ed-40b1-97f5-d54ab4a784ce"></a>
+     <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/rsp"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/55915d3a-da0c-46e8-bd20-4e9d966c3f92"></a>
+     <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/rubles"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/8ff72897-a68c-4eb8-b0e0-f15f2426c2a4"></a>
+     <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/shared-state"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/397f7c8b-2345-4f18-9c27-ebfecf408f62"></a>
+     <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/week-store"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/d1a2455e-bc92-4845-83a3-c837326094d1"></a>
+   </p>
+
   <br>
   <br>
   <br>
