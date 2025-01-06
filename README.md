@@ -49,7 +49,7 @@
 </div>
 
 <!--START_LAST_REPO-->
-Latest Project: [vicimpa/openbomber](https://github.com/vicimpa/openbomber)
+Latest Project: [vicimpa/2048-game](https://github.com/vicimpa/2048-game)
 <!--END_LAST_REPO-->
 
 <details>
@@ -94,6 +94,7 @@ Latest Project: [vicimpa/openbomber](https://github.com/vicimpa/openbomber)
 | graph-calc | [`#Homepage`](https://github.com/vicimpa/graph-calc) | 1 | ![graph-calc last commit](https://img.shields.io/github/last-commit/vicimpa/graph-calc?style=flat&label=last) |
 | code-bench | [`#Homepage`](https://github.com/vicimpa/code-bench) | 1 | ![code-bench last commit](https://img.shields.io/github/last-commit/vicimpa/code-bench?style=flat&label=last) |
 | browser-cli | [`#Homepage`](https://github.com/vicimpa/browser-cli) | 1 | ![browser-cli last commit](https://img.shields.io/github/last-commit/vicimpa/browser-cli?style=flat&label=last) |
+| 2048-game | [`#Homepage`](https://github.com/vicimpa/2048-game) | 1 | ![2048-game last commit](https://img.shields.io/github/last-commit/vicimpa/2048-game?style=flat&label=last) |
 | word-games-algorithm | [`#Homepage`](https://github.com/vicimpa/word-games-algorithm) | 0 | ![word-games-algorithm last commit](https://img.shields.io/github/last-commit/vicimpa/word-games-algorithm?style=flat&label=last) |
 | windowed-ui | [`#Homepage`](https://github.com/vicimpa/windowed-ui) | 0 | ![windowed-ui last commit](https://img.shields.io/github/last-commit/vicimpa/windowed-ui?style=flat&label=last) |
 | website | [`#Homepage`](https://github.com/vicimpa/website) | 0 | ![website last commit](https://img.shields.io/github/last-commit/vicimpa/website?style=flat&label=last) |
@@ -221,7 +222,6 @@ Latest Project: [vicimpa/openbomber](https://github.com/vicimpa/openbomber)
 | Audio-Input-Effects | [`#Homepage`](https://github.com/vicimpa/Audio-Input-Effects) | 0 | ![Audio-Input-Effects last commit](https://img.shields.io/github/last-commit/vicimpa/Audio-Input-Effects?style=flat&label=last) |
 | apps | [`#Homepage`](https://github.com/vicimpa/apps) | 0 | ![apps last commit](https://img.shields.io/github/last-commit/vicimpa/apps?style=flat&label=last) |
 | animation | [`#Homepage`](https://github.com/vicimpa/animation) | 0 | ![animation last commit](https://img.shields.io/github/last-commit/vicimpa/animation?style=flat&label=last) |
-| 2048-game | [`#Homepage`](https://github.com/vicimpa/2048-game) | 0 | ![2048-game last commit](https://img.shields.io/github/last-commit/vicimpa/2048-game?style=flat&label=last) |
 <!--END_TABLE_REPOS-->
 
 </details>
