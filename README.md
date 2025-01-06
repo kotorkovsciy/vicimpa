@@ -28,6 +28,8 @@
      <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/lib-vec2"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/b5c2c18c-2eff-4382-ad65-7dce560307cc"></a>
      <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/math"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/a00c80cc-ebe7-4e8a-a74d-69d3d3796136"></a>
      <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/nick-name"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/96f43036-7396-4a9a-a1a7-66bbbe16df28"></a>
+   </p>
+   <p style="display: inline-block">
      <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/observers"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/76877ea1-7877-4f12-a26d-c61d1419a6d8"></a>
      <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/perlin-noise"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/d0489fbf-952b-4dd7-b74b-b8f4e4f0e858"></a>
      <a target="_blank" href="https://www.npmjs.com/package/@vicimpa/proto"><img align="center" height="50" width="50" src="https://github.com/user-attachments/assets/54d03a1e-f6c8-471c-b024-c4ffc7d1d948"></a>
